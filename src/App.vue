@@ -1,6 +1,7 @@
 <!-- JS -->
 <script>
 import Title from './components/AppTitle.vue';
+import Jumbotron from './components/AppHero.vue';
 export default {
   name: 'MyApp',
   data() {
@@ -10,6 +11,7 @@ export default {
   },
   components: {
     Title,
+    Jumbotron,
   },
 };
 </script>
@@ -19,6 +21,7 @@ export default {
   <main>
     <Title />
     <h2>{{ subtitle }}</h2>
+    <Jumbotron />
   </main>
 </template>
 
@@ -27,5 +30,6 @@ export default {
 <style scoped>
 h2 {
   color: chocolate;
+  text-align: center;
 }
 </style>
