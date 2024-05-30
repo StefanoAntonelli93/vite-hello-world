@@ -14,7 +14,7 @@ export default {
 
 <!-- HTML -->
 <template>
-    <h1>{{ title }}</h1>
+    <h1>{{ Title }}</h1>
 </template>
 
 
