@@ -1,10 +1,10 @@
 <!-- JS -->
 <script>
 export default {
-    name: 'title',
+    name: 'Title',
     data() {
         return {
-            title: 'La mia prima app con Vite!',
+            Title: 'La mia prima app con Vite!',
         };
     },
    
